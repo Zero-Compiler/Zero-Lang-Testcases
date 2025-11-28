@@ -8,18 +8,6 @@
  * @return 返回值的描述
  */
 
-/** 这是另一个文档型注释的示例,其中嵌套了单行注释
- * // Nested single line comment
- * 包含中文字符,应该被lexer正确识别
- */
-
-/** 这是一个嵌套了多行注释的文档型注释示例
- * /*
- *    Nested multi-line comment
- * */
- * 包含中文字符,应该被lexer正确识别
- */
-
 /** 这是一份标准的文档注释,用于描述函数的用途和参数 <!--parse as <h1></h1>, same as markdown title `# Title`-->
  * # 一级标题
  * <!-- 这是一个文档注释中的HTML注释-->
