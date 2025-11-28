@@ -1,0 +1,8 @@
+a = b;
+a, b = c, d + e;
+
+x += y * z;
+flag -= true;
+count *= 2 + 3;
+value /= 4 - 1;
+total %= 5;

@@ -1,0 +1,51 @@
+/** 这是一个文档型注释的示例
+ * It contains multiple lines
+ * 包含多行内容
+ *
+ * @param arg1 This is the first argument
+ * @param arg2 第二个参数的描述
+ *
+ * @return 返回值的描述
+ */
+
+/** 这是另一个文档型注释的示例,其中嵌套了单行注释
+ * // Nested single line comment
+ * 包含中文字符,应该被lexer正确识别
+ */
+
+/** 这是一个嵌套了多行注释的文档型注释示例
+ * /*
+ *    Nested multi-line comment
+ * */
+ * 包含中文字符,应该被lexer正确识别
+ */
+
+/** 这是一份标准的文档注释,用于描述函数的用途和参数 <!--parse as <h1></h1>, same as markdown title `# Title`-->
+ * # 一级标题
+ * <!-- 这是一个文档注释中的HTML注释-->
+ * ## 二级标题
+ * 这是正文内容的描述部分。
+ * - 列表项一
+ * - 列表项二
+ * ### 三级标题
+ * 1. 有序列表项一
+ * 2. 有序列表项二
+ * **加粗文本**
+ * _斜体文本_
+ * ~删除线文本~
+ * ==警示文本==
+ * `代码片段`
+ * [链接文本](http://example.com)
+ * > 引用文本
+ * ```zero
+ * // 代码块示例
+ * fn example() -> unit {
+ *     // 这里是函数体
+ * }
+ * ```
+ * ![图片描述](http://example.com/image.png)
+ * @see 参考链接或文档
+ * <!-- parse @see as a text hyperlink -->
+ * @deprecated 废弃说明
+ * <!-- parse @deprecated as a warning block -->
+ */

@@ -1,0 +1,28 @@
+let str1 = "Hello, world!";
+
+let str2 = 'Single quoted string';
+
+let str3 = "String with a newline\ncharacter";
+
+let str4 = "String with a tab\tcharacter";
+
+let str5 = "String with an escaped quote: \"inside\"";
+
+let str6 = "\x48\x65\x6C\x6C\x6F";  // "Hello" in hex escape sequences
+
+let str7 = "Unicode string: \u03A9";  // Omega character
+
+let str8 = "Multi-line string
+that spans multiple lines";
+
+let str9 = "";  // Empty string
+
+let str10 = "你好，世界！";  // "Hello, World!" in Chinese
+
+let str11 = "Special characters: !@#$%^&*()_+-=[]{}|;:',.<>/?`~";
+
+let 带Unicode_emoji字符的字符串 = "😀😃😄😁😆😅😂🤣😊😇";
+
+var rawString = r"This is a raw string where \n and \t are not escaped.";
+
+var 带Unicode_emoji字符的raw字符串 = r"Raw string with emojis 😀😃😄";

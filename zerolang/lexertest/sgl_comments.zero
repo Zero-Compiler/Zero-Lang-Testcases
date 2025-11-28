@@ -1,0 +1,3 @@
+// This is a single line comment
+
+// 这是一行注释, 包含中文字符,应该被lexer正确识别

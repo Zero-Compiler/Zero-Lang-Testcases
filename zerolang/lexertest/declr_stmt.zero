@@ -1,0 +1,8 @@
+let varname = "value";
+let anotherVar = 12345;
+var third_var = true;
+var _fourthVar = 3.14;
+
+let res, temp = varname + anotherVar, third_var;
+
+var isValid: bool = false;

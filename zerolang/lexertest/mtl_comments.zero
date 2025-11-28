@@ -1,0 +1,21 @@
+/*
+这是一个多行注释
+This is a multi-line comment
+包含中文字符,应该被lexer正确识别
+*/
+
+/* 这是另一个多行注释
+This is another multi-line comment
+包含中文字符,应该被lexer正确识别 */
+
+/* 这是一个嵌套单行注释的多行注释
+   // Nested single line comment
+   包含中文字符,应该被lexer正确识别
+*/
+
+/* 这是一个嵌套多行注释的多行注释
+   /*
+      Nested multi-line comment
+   */
+   包含中文字符,应该被lexer正确识别
+*/

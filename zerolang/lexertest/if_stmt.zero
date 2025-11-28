@@ -1,0 +1,28 @@
+
+if (x) {
+    x = x + 1;
+}
+
+if (y > 0) {
+    y = y - 1;
+} else {
+    y = y + 1;
+}
+
+if (z == 0) {
+    z = 1;
+} else if (z < 0) {
+    z = -z;
+} else {
+    z = z * 2;
+}
+
+if (a > b) {
+    if (c < d) {
+        result = a + b + c + d;
+    } else {
+        result = a - b - c - d;
+    }
+} else {
+    result = 0;
+}
