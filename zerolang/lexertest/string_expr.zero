@@ -1,7 +1,5 @@
 let str1 = "Hello, world!";
 
-let str2 = 'Single quoted string';
-
 let str3 = "String with a newline\ncharacter";
 
 let str4 = "String with a tab\tcharacter";
