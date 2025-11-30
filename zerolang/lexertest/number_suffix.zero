@@ -1,0 +1,21 @@
+var a = 1i8;
+var b = 2u8;
+var c = 3i16;
+var d = 4u16;
+var e = 5i32;
+var f = 6u32;
+var g = 7i64;
+var h = 8u64;
+var i = 9f32;
+var j = 10f64;
+var k = 11.0d;
+var l = 12.0dec64;
+
+for item in iterator {
+    var name: i32 = item;
+    if condition {
+        
+    } else {
+        
+    }
+}
